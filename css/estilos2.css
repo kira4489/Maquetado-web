@@ -9,7 +9,7 @@ body {
     "footer";
   grid-template-columns: 1fr;
   /* grid-template-rows: auto 5% 1fr 4%; */
-  gap: 1px;
+  gap: 8px;
   min-width: 700px;
 }
 
@@ -85,9 +85,8 @@ form input[type="text"] {
 }
 
 form input[type="submit"] {
-  width: 100%;
   padding: 8px 16px;
-  margin-top: 32px;
+  margin: 10px auto;
   border: 1px solid #000;
   border-radius: 5px;
   display: block;

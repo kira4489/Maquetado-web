@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/estilos2.css">
+    <link rel="stylesheet" href="css/estilos2.css" />
     <title>Document</title>
   </head>
   <body>
@@ -19,7 +19,23 @@
     </nav>
     <main>
       <section>
-        <p>realice una cotizacion de un pedido,con el valor unitario que usted coincedere</p>
+        <p>
+          realice una cotizacion de un pedido,con el valor unitario que usted
+          coincedere
+        </p>
+        <form>
+          <label for="number">cantidad</label>
+          <input type="number" name="number" id="nombre" min="10" max="100" />
+          <label for="valorunita">valor unitario</label>
+          <input type="text" name="valor2" id="valorunita" />
+          <label for="valortotal">valor total</label>
+          <input type="text" name="valor" id="valortotal" />
+          <label for="descripcion" class="description"
+            >descripcion del pedido</label
+          >
+          <textarea name="descripcion" for="descripcion"></textarea>
+          <input type="submit" name="enviar" value="enviar" />
+        </form>
       </section>
     </main>
     <footer class="mi_borde">

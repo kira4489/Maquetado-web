@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Diseño Digital 3D"/>
+    <meta name="description" content="Somos uno empresa Colombiana de Innovación y Diseño Digital ubicada en Medellín, Antioquía."/>
+    <title>Cotizador</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <link rel="stylesheet" href="../css/style-cotizador.css">
+    
+</head>
+<body>
+    <header>
+        <img src="../imagenes/logo.png" alt="Logo de DD3D" title="Logo"/> 
+    </header>
+    <nav>
+        <ul class="mi_borde">
+            <li><a href="#">CEO</a></li>
+            <li><a href="#">Nuestra empresa</a></li>
+            <li><a class="active" href="#">Cotizador</a></li>
+        </ul>
+    </nav>
+    <main>
+            <p>Realice una cotización de un pedido con el valor unitario que considere conveniente</p>
+            <form role="form" method="get" action="">
+            <div id="cotizador">
+                <div id="labels">
+                    <label for="cantidad" id="label-cantidad">Cantidad:</label>
+                    <label for="valor-unitario" id="label-vrUnitario">Valor unitario:</label>
+                    <label for="valor-total" id="label-vrTotal">Valor total:</label>
+                </div>
+                <div id="inputs">
+                    <input type="number" id="cantidad" name="cantidad" required>
+                    <input type="number" id="valor-unitario" name="valor-unitario" required>
+                    <input type="number" id="valor-total" name="valor-total" placeholder="$0.0">
+                </div>                
+            </div>
+            <div id="descripcion">
+                <!-- <legend>Descripción del pedido</legend> -->
+                <label for="descripcion">Descripción del pedido</label>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+            </div>
+            <!-- <a href="#">Enviar</a> -->
+            <button type="submit" id="enviar">Enviar</button>
+            </form>
+    </main>
+    <footer class="mi_borde">
+        <p>Copyright© 2020 | Medellin - Antioquio, Colombia | Nuesto empreso | Contacto </p>
+    </footer>
+    <script src="./js/main.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>

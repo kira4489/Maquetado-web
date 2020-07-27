@@ -24,17 +24,17 @@
           coincedere
         </p>
         <form>
-          <label for="number">cantidad</label>
-          <input type="number" name="number" id="nombre" min="10" max="100" />
+          <label for="cantidad">cantidad</label>
+          <input type="number" name="cantidad" id="cantidad" />
           <label for="valorunita">valor unitario</label>
-          <input type="text" name="valor2" id="valorunita" />
+          <input type="number" name="valor2" id="valor-unitario" />
           <label for="valortotal">valor total</label>
-          <input type="text" name="valor" id="valortotal" />
+          <input type="number" name="valor" id="valor-total" />
           <label for="descripcion" class="description"
             >descripcion del pedido</label
           >
-          <textarea name="descripcion" for="descripcion"></textarea>
-          <input type="submit" name="enviar" value="enviar" />
+          <textarea name="descripcion" id="description"></textarea>
+          <button type="submit" id="enviar">Enviar</button>
         </form>
       </section>
     </main>
@@ -44,5 +44,6 @@
         Contacto
       </p>
     </footer>
+    <script type="text/javascript" src="./js/main.js"></script>
   </body>
 </html>

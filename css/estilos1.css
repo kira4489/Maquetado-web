@@ -46,45 +46,45 @@ nav ul li a {
   background-color: #e07923;
 }
 
-.mi_borde {
+/* .mi_borde {
   border: solid 1px black;
-}
+} */
 
 main {
   grid-area: main;
 }
 
-main #sec_quien_soy {
+main #principal {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-main #sec_quien_soy #art_quien_soy div hr {
+main #principal #quienes_somos div hr {
   width: 30%;
   float: left;
   margin: 0 auto;
 }
 
-main #sec_quien_soy article {
+main #principal article {
   padding: 2%;
 }
 
-main #sec_quien_soy #foto_quien_soy {
+main #principal #foto_quien_soy {
   text-align: center;
 }
 
-main #a_que_me_dedico {
+main #equipo {
   background-color: #7fa7dc;
   color: white;
   text-align: center;
   padding: 2% 5% 2% 5%;
 }
 
-main #a_que_me_dedico h3 {
+main #equipo h3 {
   margin-bottom: 3px;
 }
 
-main #a_que_me_dedico hr {
+main #equipo hr {
   width: 15%;
   margin: auto;
 }

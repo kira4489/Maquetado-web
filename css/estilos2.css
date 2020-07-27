@@ -74,9 +74,7 @@ form label {
   /* text-transform: capitalize; */
 }
 
-form input[type="number"],
-form input[type="email"],
-form input[type="text"] {
+form input[type="number"]{
   width: 180px;
   padding: 3px 10px;
   border-radius: 3px;
@@ -84,10 +82,9 @@ form input[type="text"] {
   display: inline-block;
 }
 
-form input[type="submit"] {
+form button[type="submit"] {
   padding: 8px 16px;
   margin: 10px auto;
-  border: 1px solid #000;
   border-radius: 5px;
   display: block;
   color: #fff;

@@ -46,9 +46,9 @@ nav ul li a {
   background-color: #e07923;
 }
 
-/* .mi_borde {
+.mi_borde {
   border: solid 1px black;
-} */
+}
 
 main {
   grid-area: main;

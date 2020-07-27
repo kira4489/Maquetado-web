@@ -15,7 +15,7 @@ function enviarDatos(evento) {
   // console.log(event.type);
 
   if (evento.type == "click") {
-    evento.preventDefault();
+    evento.preventDefault();//frena la ejecucion
   }
 }
 
